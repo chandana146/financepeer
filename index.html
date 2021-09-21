@@ -1,0 +1,80 @@
+<html>
+   <head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ </head>
+   <body>
+<div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">An Authentication System</h1>
+
+
+            <button class="custom-button" onclick="display('login')">Login</button>
+        </div>
+        </div>
+    
+    <div id="login">
+    <div class="bg">
+    <div class="padding">
+        <div class="row">
+            <div class="container d-flex justify-content-center">
+                <div class="col-md-6 col-sm-8">
+                    <div class="card card-1">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <span>Login Form</span>
+                                </div>
+
+
+                            </div>
+                            <div class="card-body" style="height:350px">
+                                <div class="col-md-6">
+                                    <div class="from-group">
+                                        <label for="cc-number" class="control-label"> User Name </label>
+                                        <input type="text" class="input-lg form-control">
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-6">
+                                    <div classs="form-group">
+                                        <label for="email" class="control-label">Email</label>
+                                        <input type="email" class="input-lg form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div classs="form-group">
+                                        <label for="pwd" class="control-label">Password</label>
+                                        <input type="password" id="password-2" onkeyup="validate();" class="input-lg form-control">
+                                      </div>
+      
+                                      <div id="validation-txt">
+                                  </div>
+                                        
+                                    </div>
+                                
+                                <div class="col-md-6">
+                                    <div classs="form-group">
+                                        <label for="register"> </label>
+                                        <input type="button" value="Login" class="btn btn-warning form-control" onclick="display('success')">
+                                    </div>
+
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div id="succcess">
+                        <div class="dis">login Successful</div>
+                    </div>
+<body>
+</html>
